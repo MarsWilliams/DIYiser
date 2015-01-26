@@ -1,0 +1,355 @@
+body {
+  padding:0;
+  font-size:16px;
+  line-height:25.875px;
+  font-family:'Source Sans Pro';
+  color:rgba(68,68,68,1)
+}
+
+div.wrapper {
+  width:1216px;
+  margin:0 auto;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  padding:6.25em 0
+}
+
+p {
+	 margin-bottom: 25px;
+}
+
+p.intro-paragraph {
+  text-align:center;
+  font-size:1.5em;
+  line-height:20px;
+  padding:1em;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  margin:0 0 3em;
+  width:100%;
+  float:left;
+  font-family:"Source Sans Pro";
+  font-weight:400;
+  font-style:normal
+}
+
+h1.headings-h1 {
+  font-size:7.31em;
+  line-height:112.5%;
+  margin:0 0 .313em;
+  font-family:"Crimson Text";
+  float:left;
+  font-weight:400;
+  font-style:normal;
+  clear:both
+}
+
+div.col-3:after {
+	 content: " ";
+	 display: table;
+	 clear: both;
+}
+
+div.col-2:before {
+	 content: " ";
+	 display: table;
+}
+
+div.col-3:before {
+	 content: " ";
+	 display: table;
+}
+
+div.col-2:after {
+	 content: " ";
+	 display: table;
+	 clear: both;
+}
+
+span.category-note {
+	 display: block;
+	 color: #CECBB6;
+	 padding: 0 0 0.714em 0;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 font-size: 0.875em;
+	 line-height: 1.857;
+	 margin: 0;
+	 background: #fff;
+}
+
+img {
+	 max-width: 100%;
+}
+
+h3.challenge-heading-large {
+	 font-size: 1.875em;
+	 line-height: 1.2;
+	 margin: 1.33333333333333em 32px 0.5em;
+	 float: left;
+	 clear: both;
+}
+
+p.challenge-desc {
+	 margin: 0 32px 0.833em;
+	 float: left;
+	 clear: both;
+}
+
+p.date-note {
+	 margin: 0 5% 2.857em;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 color: #ccc;
+	 font-size: 0.875em;
+	 line-height: 1.857;
+}
+
+div.col2-challenge-element-1 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 48.4375%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 margin-right: 3.125%;
+	 float: left;
+}
+
+div.col2-challenge-element-2 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 48.4375%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 float: left;
+}
+
+h3.challenge-heading {
+	 font-size: 1.5em;
+	 line-height: 1.25;
+	 margin: 1.667em 32px 0.625em;
+}
+
+div.col-3-challenge-element-3 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 float: left;
+}
+
+div.col-3-challenge-element-1 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 margin-right: 3.125%;
+	 float: left;
+}
+
+div.col-3-challenge-element-2 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 margin-right: 3.125%;
+	 float: left;
+}
+
+div.col-3-challenge-element-5 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 float: left;
+	 margin-right: 3.125%;
+}
+
+div.col-3-challenge-element-6 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 float: left;
+}
+
+div.load-more {
+	 padding: 2.5em 0 5.625em 0;
+	 text-align: center;
+}
+
+a.load-more-link {
+	 padding: 1.429em 0;
+	 display: inline-block;
+	 width: 100%;
+	 max-width: 400px;
+	 text-align: center;
+	 border: 1px solid #9E9E9E;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 font-size: 0.875em;
+	 line-height: 1.857;
+	 margin: 0;
+	 color: #9E9E9E;
+}
+
+div.col-3-challenge-element-4 {
+	 background: #F5F5F1;
+	 text-decoration: none;
+	 border-bottom: 2px solid #DDDBCC;
+	 margin-bottom: 2.5em;
+	 padding: 0;
+	 width: 31.25%;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 float: left;
+	 margin-right: 3.125%;
+	 clear: left;
+}
+
+img.challenge-image {
+	 display: block;
+	 float: left;
+	 margin-bottom:1em
+}
+
+@media screen and (max-width: 768px) {
+	 div.col2-challenge-element-1 {
+	 width: 100%;
+	 float: none;
+}
+
+div.col2-challenge-element-2 {
+	 width: 100%;
+	 float: none;
+}
+
+div.col-3-challenge-element-1 {
+	 width: 48.4375%;
+	 margin-right: 3.125%;
+}
+
+div.col-3-challenge-element-2 {
+	 width: 48.4375%;
+	 margin-right: 0;
+}
+
+div.col-3-challenge-element-3 {
+	 width: 48.4375%;
+	 margin-right: 3.125%;
+	 clear: left;
+}
+
+div.col-3-challenge-element-4 {
+	 width: 48.4375%;
+	 margin-right: 0;
+	 clear: none;
+}
+
+div.col-3-challenge-element-5 {
+	 width: 48.4375%;
+	 margin-right: 3.125%;
+	 clear: left;
+}
+
+div.col-3-challenge-element-6 {
+	 width: 48.4375%;
+	 margin-right: 0;
+}
+
+body {
+	 font-size: 90%;
+}
+
+} @media screen and (max-width: 480px) {
+	 div.col2-challenge-element-1 {
+	 width: 100%;
+	 float: none;
+}
+
+div.col2-challenge-element-2 {
+	 width: 100%;
+	 float: none;
+}
+
+div.col-3-challenge-element-1 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+div.col-3-challenge-element-2 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+div.col-3-challenge-element-3 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+div.col-3-challenge-element-4 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+div.col-3-challenge-element-5 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+div.col-3-challenge-element-6 {
+	 width: 100%;
+	 margin-right: 0;
+	 float: none;
+}
+
+body {
+	 font-size: 80%;
+}
+
+p.tagline {
+	 font-size: 1.75em;
+}
+
+} 

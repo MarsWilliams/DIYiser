@@ -1,25 +1,36 @@
+.abalone {
+	background-color: #F5F5F1;
+}
+
 .seafoam {
-	background-color: rgb(175,220,202);
+  background-color:#afdcca;
 }
+
 .surf {
-	background-color: rgb(143,208,182);
+  background-color:#8fd0b6;
 }
+
 .sand {
-	background-color: rgb(254,227,158);
+  background-color:#fee39e;
 }
+
 .seaglass {
-	background-color: rgb(109,196,162);
+  background-color:#6dc4a2;
 }
+
 .shell {
-	background-color: rgb(254,211,90);
+  background-color:#fed35a;
 }
+
 .sunshine {
-	background-color: rgb(254,198,13);
+  background-color:#fec60d;
 }
+
 .clouds {
-	background-color: rgb(255,153,204);
+  background-color:#f9c;
 }
+
 .sunset {
-	background-color: rgb(255,153,102);
+  background-color:#f96;
 }
 
