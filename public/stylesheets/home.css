@@ -491,12 +491,14 @@ div.article-side {
   margin:0 0 1em
 }
 
-div.quote-a {
-  margin:0 0 4em
+div.extended-caption {
+  min-width: 80vh; 
+  margin: 0 0 4em;
+  display: block;
 }
 
-div.extended-caption {
-  margin:0 0 4em
+div.quote-a {
+  display: none;
 }
 
 div.wrapper {

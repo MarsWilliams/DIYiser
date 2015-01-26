@@ -1,66 +1,116 @@
 <link href='stylesheets/challenges.css' rel='stylesheet' type='text/css'>
-    <div class="wrapper">
-       <h1 class="headings-h1">Saltwater</h1>
-       <p class="intro-paragraph">The sea is calling, and I must go.</p>
-      <div class="col-2">
-        <div>
-          <br/>
-        </div>
-        <div class="col2-challenge-element-1">
-          <span class="category-note">Skill</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading-large">{{title}}</h3>
-          <p class="challenge-desc">{{description}}</p>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col2-challenge-element-2">
-          <span class="category-note">Skill</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading-large">{{title}}</h3>
-          <p class="challenge-desc">{{description}}</p>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-      </div>
-      <div class="col-3">
-        <div>
-          <br/>
-        </div>
-        <div class="col-3-challenge-element-1">
-          <span class="category-note">Challenge: {{title}}</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col-3-challenge-element-2">
-          <span class="category-note">Challenge: {{title}}</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col-3-challenge-element-3">
-          <span class="category-note">Challenge: {{title}}</span>
-          <h3 class="challenge-heading-large">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col-3-challenge-element-4">
-          <span class="category-note">Challenge: {{title}}</span>
-          <h3 class="challenge-heading-large">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col-3-challenge-element-5">
-          <span class="category-note">Challenge: {{title}}</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-        <div class="col-3-challenge-element-6">
-          <span class="category-note">Challenge: {{title}}</span>
-          <img class="challenge-image" src="{{images.large}}"/>
-          <h3 class="challenge-heading">{{description}}</h3>
-          <p class="date-note"> Difficulty: {{difficulty}}</p>
-        </div>
-      </div>
+<div class="wrapper">
+    <h1 class="headings-h1">Saltwater</h1>
+
+    <p class="intro-paragraph">The sea is calling, and I must go.</p>
+    <div>
+      <nav class="menu-nav-hz">
+        <ul class="menu-hz">
+          <li class="menu-hz-li">
+            <a href="#">Sailor</a>
+          </li>
+          <li class="menu-hz-li">
+            <a href="/knotter">Knotter</a>
+          </li>
+          <li class="menu-hz-li">
+            <a href="/astronomer">Astronomer</a>
+          </li>
+          <li class="menu-hz-li">
+            <a href="/meterologist">Meteorologist</a>
+          </li>
+          <li class="menu-hz-li">
+            <a href="oceanographer">Oceanographer</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  <div class="load-more">
-    <a href="#" class="load-more-link">Load more</a>
-  </div>
+    <div class="col-2">
+        <div>
+            <br>
+        </div>
+        {{#each skill}}
+        <div class="col2-challenge-element-1">
+            <span class="category-note">Skill</span> <img class=
+            "challenge-image" src="{{skill.images.large}}">
+
+            <h3 class="challenge-heading-large">{{skill.title}}</h3>
+
+            <p class="challenge-desc">{{skill.description}}</p>
+
+            <p class="date-note">Difficulty: {{skill.difficulty}}</p>
+        </div>
+
+        <div class="col2-challenge-element-2">
+            <span class="category-note">Skill</span> <img class=
+            "challenge-image" src="{{images.large}}">
+
+            <h3 class="challenge-heading-large">{{title}}</h3>
+
+            <p class="challenge-desc">{{description}}</p>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div>
+            <br>
+        </div>
+
+        <div class="col-3-challenge-element-1">
+            <span class="category-note">Challenge: {{title}}</span> <img class=
+            "challenge-image" src="{{images.large}}">
+
+            <h3 class="challenge-heading">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+
+        <div class="col-3-challenge-element-2">
+            <span class="category-note">Challenge: {{title}}</span> <img class=
+            "challenge-image" src="{{images.large}}">
+
+            <h3 class="challenge-heading">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+
+        <div class="col-3-challenge-element-3">
+            <span class="category-note">Challenge: {{title}}</span>
+
+            <h3 class="challenge-heading-large">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+
+        <div class="col-3-challenge-element-4">
+            <span class="category-note">Challenge: {{title}}</span>
+
+            <h3 class="challenge-heading-large">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+
+        <div class="col-3-challenge-element-5">
+            <span class="category-note">Challenge: {{title}}</span> <img class=
+            "challenge-image" src="{{images.large}}">
+
+            <h3 class="challenge-heading">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+
+        <div class="col-3-challenge-element-6">
+            <span class="category-note">Challenge: {{title}}</span> <img class=
+            "challenge-image" src="{{images.large}}">
+
+            <h3 class="challenge-heading">{{description}}</h3>
+
+            <p class="date-note">Difficulty: {{difficulty}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="load-more">
+    <a class="load-more-link" href="#">Load more</a>
+</div>

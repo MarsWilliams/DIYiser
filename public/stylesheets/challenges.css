@@ -15,6 +15,18 @@ div.wrapper {
   padding:6.25em 0
 }
 
+a:hover {
+	 color: #6dc4a2;
+}
+
+a {
+	 color: #8fd0b6;
+	 text-decoration: none;
+	 font-family: source-code-pro;
+	 font-weight: 400;
+	 font-style: normal;
+}
+
 p {
 	 margin-bottom: 25px;
 }
@@ -43,6 +55,30 @@ h1.headings-h1 {
   font-weight:400;
   font-style:normal;
   clear:both
+}
+
+nav {
+	 margin: 0 auto;
+	 text-align: center;
+	 width: auto;
+	 float: left;
+}
+
+nav.menu-nav-hz {
+	 margin: 0 auto;
+	 width: 1214.4166564941406px;
+}
+
+ul.menu-hz {
+	 margin: 0 0 3em 0;
+	 list-style: none;
+	 text-align: center;
+}
+
+li.menu-hz-li {
+	 margin: 0 4.5em 0 4.5em;
+	 font-size: 16px;
+	 display: inline-block;
 }
 
 div.col-3:after {
