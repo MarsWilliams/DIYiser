@@ -1,6 +1,6 @@
 body {
   padding:0;
-  font-size:20px;
+  font-size:16px;
   line-height:25.875px;
   font-family:'Source Sans Pro';
   color:rgba(68,68,68,1)
@@ -546,6 +546,7 @@ div.extended-caption-content {
 
 img.extended-caption-img {
   display:block;
+  padding-top: 10%;
 }
 
 p.extended-caption-tag {

@@ -31,7 +31,7 @@ server.on('error', onError);
 server.on('listening', onListening);
 ImageToAscii(__dirname + "/owlbaby.png", function(err, converted) {
     console.log(err || converted);
-    console.log("There you are! Let's be friends on localhost', port");
+    console.log("There you are! Let's be friends on localhost", port);
 });
 
 /**
