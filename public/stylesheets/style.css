@@ -578,7 +578,7 @@ p.extended-caption-p {
 
 a.extended-caption-ghost-button {
   color:rgba(255,255,255,1);
-  background-color:rgba(255,153,204,.75);
+  background-color:rgba(255,153,204,1);
   font-size:.75em;
   line-height:3.571;
   text-align:center;
@@ -593,7 +593,7 @@ a.extended-caption-ghost-button {
 }
 
 a.extended-caption-ghost-button:hover {
-  background-color:rgba(255,153,204,1)
+  background-color:rgba(255,163,210,1)
 }
 
 p.content-area-tag {
