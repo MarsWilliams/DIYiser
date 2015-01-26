@@ -1,25 +1,25 @@
 .seafoam {
-	background-color: #afdcca;
+	background-color: rgb(175,220,202);
 }
 .surf {
-	background-color: #8fd0b6;
+	background-color: rgb(143,208,182);
 }
 .sand {
-	background-color: #fee39e;
+	background-color: rgb(254,227,158);
 }
 .seaglass {
-	background-color: #6dc4a2;
+	background-color: rgb(109,196,162);
 }
 .shell {
-	background-color: #fed35a;
+	background-color: rgb(254,211,90);
 }
 .sunshine {
-	background-color: #fec60d;
+	background-color: rgb(254,198,13);
 }
 .clouds {
-	background-color: #ff99cc;
+	background-color: rgb(255,153,204);
 }
 .sunset {
-	background-color: #ff9966;
+	background-color: rgb(255,153,102);
 }
 
