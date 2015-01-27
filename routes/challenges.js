@@ -60,11 +60,11 @@ router.get('/', function(req, res, next) {
                 oceanographer: oceanographer,
                 traveler: traveler,
                 sailorDIY: 'https://diy.org/skills/sailor',
-                astronomerDIY: 'https://diy.org/skills/sailor',
-                meteorologistDIY: 'https://diy.org/skills/sailor',
-                knotterDIY: 'https://diy.org/skills/sailor',
-                oceanographerDIY: 'https://diy.org/skills/sailor',
-                travelerDIY: 'https://diy.org/skills/sailor'
+                astronomerDIY: 'https://diy.org/skills/astronomer',
+                meteorologistDIY: 'https://diy.org/skills/meteorologist',
+                knotterDIY: 'https://diy.org/skills/knotter',
+                oceanographerDIY: 'https://diy.org/skills/oceanographer',
+                travelerDIY: 'https://diy.org/skills/traveler'
               });
             });
           });
