@@ -15,7 +15,7 @@ div.wrapper {
   padding: 6.25em 0
 }
 
-a: hover {
+a:hover {
   color: #6dc4a2
 }
 
@@ -62,7 +62,7 @@ nav.menu-nav-hz {
   width: 1214.4166564941px
 }
 
-nav.menu-nav-hz: after {
+nav.menu-nav-hz:after {
   clear: both
 }
 
@@ -78,12 +78,12 @@ li.menu-hz-li {
   display: inline-block
 }
 
-div.col-2: before {
+div.col-2:before {
   content: " ";
   display: table
 }
 
-div.col-2: after {
+div.col-2:after {
   content: " ";
   display: table;
   clear: both

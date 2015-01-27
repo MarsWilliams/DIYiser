@@ -14,12 +14,12 @@ div.wrapper {
   padding: 6.25em 0
 }
 
-section.thirds: before {
+section.thirds:before {
   content: "";
   display: table
 }
 
-section.thirds: after {
+section.thirds:after {
   content: "";
   display: table;
   clear: both
@@ -82,7 +82,7 @@ div.third {
   color: #fff
 }
 
-.error-caption: hover {
+.error-caption:hover {
   color: #ff1643
 }
 

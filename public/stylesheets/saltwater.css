@@ -15,12 +15,12 @@ div.wrapper {
   padding: 6.25em 0
 }
 
-div.slice: before {
+div.slice:before {
   content: " ";
   display: table
 }
 
-div.slice: after {
+div.slice:after {
   content: " ";
   display: table;
   clear: both
@@ -314,16 +314,16 @@ a.extended-caption-ghost-button {
   font-style: normal
 }
 
-a.extended-caption-ghost-button: hover {
+a.extended-caption-ghost-button:hover {
   background-color: rgba(255,163,210,1)
 }
 
-div.extended-caption: before {
+div.extended-caption:before {
   content: " ";
   display: table
 }
 
-div.extended-caption: after {
+div.extended-caption:after {
   content: " ";
   display: table;
   clear: both
@@ -344,12 +344,12 @@ p.intro-paragraph {
   font-style: normal
 }
 
-div.three-col-gallery: before {
+div.three-col-gallery:before {
   content: "";
   display: table
 }
 
-div.three-col-gallery: after {
+div.three-col-gallery:after {
   content: "";
   display: table;
   clear: both
@@ -412,12 +412,12 @@ div.article-side-article {
   padding: 0 1.5em
 }
 
-div.article-side: before {
+div.article-side:before {
   content: " ";
   display: table
 }
 
-div.article-side: after {
+div.article-side:after {
   content: " ";
   display: table;
   clear: both
@@ -475,12 +475,12 @@ h2.extended-caption-h2 {
 
 div.extended-caption-figure {
   float: none;
-  width: 100%
+  width: 80vh;
 }
 
 div.extended-caption-content {
   float: none;
-  width: 100%
+  width: 80vh;
 }
 
 div.article-main {
