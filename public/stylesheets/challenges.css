@@ -282,6 +282,8 @@ div.col-3-challenge-element-4 {
 img.challenge-image {
 	 display: block;
 	 float: left;
+	 margin-left: 27%;
+	 margin-top: 3em;
 	 margin-bottom:1em
 }
 

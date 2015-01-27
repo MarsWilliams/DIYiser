@@ -8,8 +8,6 @@ var saltwater = require('./routes/saltwater');
 var challenges = require('./routes/challenges');
 var hbs = require('hbs');
 
-hbs.registerPartials(__dirname + '/views/partials');
-
 var app = express();
 
 // view engine setup
