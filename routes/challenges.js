@@ -1,32 +1,14 @@
 var express = require('express');
 var router = express.Router();
 var diy = require('diy')('*');
+var sailorDIY;
+var astronomerDIY;
+var meteorologistDIY;
+var knotterDIY;
+var oceanographerDIY;
+var travelerDIY;
 
-/* GET home page. */
-// router.get('/', function(req, res, next) {
-//   var skill = diy({
-//     method: 'GET',
-//     uri: '/skills/sailor'
-//   }, function(err, body) {
-//     if (body.response.error || err) return next(err);
-//     var skill = body.response;
-//     res.render('challenges', {
-//       skill: skill
-//     });
-//   });
-// });
-
-// router.get('/', function(req, res, next) {
-//   var challenges = diy({
-//     method: 'GET',
-//     uri: 'skills/sailor/challenges'
-//   }, function(err, body) {
-//     if (body.response.error || err) return next(err);
-//     var challenges = body.response;
-//     res.render('challenges', {challenges: challenges});
-//   });
-// });
-
+//* Wherin I get some nautical-related DIY skills and associated challenges.*//
 router.get('/', function(req, res, next) {
   var sailor = diy({
     method: 'GET',
@@ -34,75 +16,55 @@ router.get('/', function(req, res, next) {
   }, function(err, body) {
     if (body.response.error || err) return next(err);
     sailor = body.response;
-    var sailorChallenges = diy({
+
+    var astronomer = diy({
       method: 'GET',
-      uri: '/skills/sailor/challenges'
+      uri: '/skills/astronomer/'
     }, function(err, body) {
       if (body.response.error || err) return next(err);
-      sailorChallenges = body.response;
-      var astronomer = diy({
+      astronomer = body.response;
+
+      var meteorologist = diy({
         method: 'GET',
-        uri: '/skills/astronomer/'
+        uri: '/skills/meteorologist/'
       }, function(err, body) {
         if (body.response.error || err) return next(err);
-        astronomer = body.response;
-        var astronomerChallenges = diy({
+        meteorologist = body.response;
+
+        var knotter = diy({
           method: 'GET',
-          uri: '/skills/astronomer/challenges'
+          uri: '/skills/knotter/'
         }, function(err, body) {
           if (body.response.error || err) return next(err);
-          astronomerChallenges = body.response;
-          var meteorologist = diy({
+          knotter = body.response;
+
+          var oceanographer = diy({
             method: 'GET',
-            uri: '/skills/meteorologist/'
+            uri: '/skills/oceanographer/'
           }, function(err, body) {
             if (body.response.error || err) return next(err);
-            meteorologist = body.response;
-            var meteorologistChallenges = diy({
+            oceanographer = body.response;
+
+            var traveler = diy({
               method: 'GET',
-              uri: '/skills/meteorologist/challenges'
+              uri: '/skills/traveler/'
             }, function(err, body) {
               if (body.response.error || err) return next(err);
-              meteorologistChallenges = body.response;
-              var knotter = diy({
-                method: 'GET',
-                uri: '/skills/knotter/'
-              }, function(err, body) {
-                if (body.response.error || err) return next(err);
-                knotter = body.response;
-                var knotterChallenges = diy({
-                  method: 'GET',
-                  uri: '/skills/knotter/challenges'
-                }, function(err, body) {
-                  if (body.response.error || err) return next(err);
-                  knotterChallenges = body.response;
-                  var oceanographer = diy({
-                    method: 'GET',
-                    uri: '/skills/oceanographer/'
-                  }, function(err, body) {
-                    if (body.response.error || err) return next(err);
-                    oceanographer = body.response;
-                    var oceanographerChallenges = diy({
-                      method: 'GET',
-                      uri: '/skills/oceanographer/challenges'
-                    }, function(err, body) {
-                      if (body.response.error || err) return next(err);
-                      oceanographerChallenges = body.response;
-                      res.render('challenges', {
-                        sailor: sailor,
-                        astronomer: astronomer,
-                        meteorologist: meteorologist,
-                        knotter: knotter,
-                        oceanographer: oceanographer,
-                        sailorChallenges: sailorChallenges,
-                        astronomerChallenges: astronomerChallenges,
-                        meteorologistChallenges: meteorologistChallenges,
-                        knotterChallenges: knotterChallenges,
-                        oceanographerChallenges: oceanographerChallenges
-                      });
-                    });
-                  });
-                });
+              traveler = body.response;
+
+              res.render('challenges', {
+                sailor: sailor,
+                astronomer: astronomer,
+                meteorologist: meteorologist,
+                knotter: knotter,
+                oceanographer: oceanographer,
+                traveler: traveler,
+                sailorDIY: 'https://diy.org/skills/sailor',
+                astronomerDIY: 'https://diy.org/skills/sailor',
+                meteorologistDIY: 'https://diy.org/skills/sailor',
+                knotterDIY: 'https://diy.org/skills/sailor',
+                oceanographerDIY: 'https://diy.org/skills/sailor',
+                travelerDIY: 'https://diy.org/skills/sailor'
               });
             });
           });

@@ -1,115 +1,108 @@
-<link href='stylesheets/challenges.css' rel='stylesheet' type='text/css'>
+<link href= 'stylesheets/challenges.css' rel='stylesheet' type='text/css'>
 <div class="wrapper">
-    <h1 class="headings-h1">Saltwater</h1>
+  <a href="/"><h1 class="headings-h1">Saltwater</h1></a>
 
-    <p class="intro-paragraph">The sea is calling, and I must go.</p>
-    <div>
-        <nav class="menu-nav-hz">
-            <ul class="menu-hz">
-                <li class="menu-hz-li">
-                    <a href="#">Sailor</a>
-                </li>
+  <p class="intro-paragraph">The sea is calling, and I must go.</p>
 
-                <li class="menu-hz-li">
-                    <a href="/knotter">Knotter</a>
-                </li>
+  <div>
+    <nav class="menu-nav-hz">
+      <ul class="menu-hz">
+        <li class="menu-hz-li">
+          <a href="#sailor-knotter">Sailor</a>
+        </li>
 
-                <li class="menu-hz-li">
-                    <a href="/astronomer">Astronomer</a>
-                </li>
+        <li class="menu-hz-li">
+          <a href="#sailor-knotter">Knotter</a>
+        </li>
 
-                <li class="menu-hz-li">
-                    <a href="/meterologist">Meteorologist</a>
-                </li>
+        <li class="menu-hz-li">
+          <a href="#astronomer-meteorologist">Astronomer</a>
+        </li>
 
-                <li class="menu-hz-li">
-                    <a href="oceanographer">Oceanographer</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    {{sailor}}{{astronomer}}
+        <li class="menu-hz-li">
+          <a href="#astronomer-meteorologist">Meteorologist</a>
+        </li>
+
+        <li class="menu-hz-li">
+          <a href="#oceanographer-traveler">Oceanographer</a>
+        </li>
+
+        <li class="menu-hz-li">
+          <a href="#oceanographer-traveler">Traveler</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="col2-challenge-elements" id="sailor-knotter">
     <div class="col-2">
-        <div>
-            <br>
-        </div>
-        <div class="col2-challenge-element-1">
-            <span class="category-note">Skill</span> <img class=
-            "challenge-image" src="{{skill.images.large}}">
+      <div>
+        <br>
+      </div>
 
-            <h3 class="challenge-heading-large">{{skill.title}}</h3>
+      <div class="col2-challenge-element-1">
+        <span class="category-note">Skill</span> <a href="{{sailorDIY}}"><img class="challenge-image" src="{{sailor.images.large}}"></a>
 
-            <p class="challenge-desc">{{skill.description}}</p>
-        </div>
-        <div class="col2-challenge-element-2">
-            <span class="category-note">Skill</span> 
-            <img class="challenge-image" src="{{skill.images.large}}">
+        <h3 class="challenge-heading-large">{{sailor.title}}</h3>
 
-            <h3 class="challenge-heading-large">{{skill.title}}</h3>
+        <p class="challenge-desc">{{sailor.description}}</p>
+      </div>
 
-            <p class="challenge-desc">{{skill.description}}</p>
-        </div>
+      <div class="col2-challenge-element-2">
+        <span class="category-note">Skill</span> <a href="{{knotterDIY}}"><img class="challenge-image" src="{{knotter.images.large}}"></a>
+
+        <h3 class="challenge-heading-large">{{knotter.title}}</h3>
+
+        <p class="challenge-desc">{{knotter.description}}</p>
+      </div>
     </div>
+  </section>
 
-    <div class="col-3">
-        <div>
-            <br>
-        </div>
+  <section class="col2-challenge-elements" id="astronomer-meteorologist">
+    <div class="col-2">
+      <div>
+        <br>
+      </div>
 
-        <div class="col-3-challenge-element-1">
-            <span class="category-note">Challenge: {{title}}</span> 
-            <img class="challenge-image" src="{{images.large}}">
+      <div class="col2-challenge-element-1">
+        <span class="category-note">Skill</span> <a href="{{astronomerDIY}}"><img class="challenge-image" src="{{astronomer.images.large}}"></a>
 
-            <h3 class="challenge-heading">{{description}}</h3>
+        <h3 class="challenge-heading-large">{{astronomer.title}}</h3>
 
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        </div>
+        <p class="challenge-desc">{{astronomer.description}}</p>
+      </div>
 
-        <div class="col-3-challenge-element-2">
-            <span class="category-note">Challenge: {{title}}</span> <img class=
-            "challenge-image" src="{{images.large}}">
+      <div class="col2-challenge-element-2">
+        <span class="category-note">Skill</span> <a href="{{meteorologistDIY}}"><img class="challenge-image" src="{{meteorologist.images.large}}"></a>
 
-            <h3 class="challenge-heading">{{description}}</h3>
+        <h3 class="challenge-heading-large">{{meteorologist.title}}</h3>
 
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        </div>
-
-        <div class="col-3-challenge-element-3">
-            <span class="category-note">Challenge: {{title}}</span>
-
-            <h3 class="challenge-heading-large">{{description}}</h3>
-
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        </div>
-
-        <div class="col-3-challenge-element-4">
-            <span class="category-note">Challenge: {{title}}</span>
-
-            <h3 class="challenge-heading-large">{{description}}</h3>
-
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        </div>
-
-        <div class="col-3-challenge-element-5">
-            <span class="category-note">Challenge: {{title}}</span> <img class=
-            "challenge-image" src="{{images.large}}">
-
-            <h3 class="challenge-heading">{{description}}</h3>
-
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        </div>
-
-        <div class="col-3-challenge-element-6">
-            <span class="category-note">Challenge: {{title}}</span> <img class=
-            "challenge-image" src="{{images.large}}">
-
-            <h3 class="challenge-heading">{{description}}</h3>
-
-            <p class="date-note">Difficulty: {{difficulty}}</p>
-        
+        <p class="challenge-desc">{{meteorologist.description}}</p>
+      </div>
     </div>
-</div>
+  </section>
 
-<div class="load-more">
-    <a class="load-more-link" href="#">Load more</a>
+  <section class="col2-challenge-elements" id="oceanographer-traveler">
+    <div class="col-2">
+      <div>
+        <br>
+      </div>
+
+      <div class="col2-challenge-element-1">
+        <span class="category-note">Skill</span> <a href="{{oceanographerDIY}}"><img class="challenge-image" src="{{oceanographer.images.large}}"></a>
+
+        <h3 class="challenge-heading-large">{{oceanographer.title}}</h3>
+
+        <p class="challenge-desc">{{oceanographer.description}}</p>
+      </div>
+
+      <div class="col2-challenge-element-2">
+        <span class="category-note">Skill</span> <a href="{{travelerDIY}}"><img class="challenge-image" src="{{traveler.images.large}}"></a>
+
+        <h3 class="challenge-heading-large">{{traveler.title}}</h3>
+
+        <p class="challenge-desc">{{traveler.description}}</p>
+      </div>
+    </div>
+  </section>
 </div>
