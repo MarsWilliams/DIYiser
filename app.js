@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var saltwater = require('./routes/saltwater');
-var challenges = require('./routes/challenges');
+var skills = require('./routes/skills');
 var hbs = require('hbs');
 
 var app = express();
@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 app.use('/', saltwater);
-app.use('/challenges', challenges);
+app.use('/skills', skills);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

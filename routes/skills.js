@@ -52,7 +52,7 @@ router.get('/', function(req, res, next) {
               if (body.response.error || err) return next(err);
               traveler = body.response;
 
-              res.render('challenges', {
+              res.render('skills', {
                 sailor: sailor,
                 astronomer: astronomer,
                 meteorologist: meteorologist,

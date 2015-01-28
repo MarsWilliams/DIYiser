@@ -105,7 +105,7 @@ img {
   max-width: 100%
 }
 
-h3.challenge-heading-large {
+h3.skill-heading-large {
   font-size: 1.875em;
   line-height: 1.2;
   margin: 1.3333333333333em 32px .5em;
@@ -113,13 +113,13 @@ h3.challenge-heading-large {
   clear: both
 }
 
-p.challenge-desc {
+p.skill-desc {
   margin: 0 32px .833em;
   float: left;
   clear: both
 }
 
-div.col2-challenge-element-1 {
+div.col2-skill-element-1 {
   background: #F5F5F1;
   text-decoration: none;
   border-bottom: 2px solid #DDDBCC;
@@ -134,7 +134,7 @@ div.col2-challenge-element-1 {
   height: 230px
 }
 
-div.col2-challenge-element-2 {
+div.col2-skill-element-2 {
   background: #F5F5F1;
   text-decoration: none;
   border-bottom: 2px solid #DDDBCC;
@@ -148,19 +148,19 @@ div.col2-challenge-element-2 {
   height: 230px
 }
 
-section.col2-challenge-elements {
+section.col2-skill-elements {
   height: 575px;
   clear: both;
   margin-top: 5em
 }
 
-h3.challenge-heading {
+h3.skill-heading {
   font-size: 1.5em;
   line-height: 1.25;
   margin: 1.667em 32px .625em
 }
 
-img.challenge-image {
+img.skill-image {
   display: block;
   float: left;
   margin-left: 27%;
@@ -177,12 +177,12 @@ a {
 }
 
 @media screen and (max-width:  768px) {
-div.col2-challenge-element-1 {
+div.col2-skill-element-1 {
   width: 100%;
   float: none
 }
 
-div.col2-challenge-element-2 {
+div.col2-skill-element-2 {
   width: 100%;
   float: none
 }
@@ -193,12 +193,12 @@ body {
 }
 
 @media screen and (max-width:  480px) {
-div.col2-challenge-element-1 {
+div.col2-skill-element-1 {
   width: 100%;
   float: none
 }
 
-div.col2-challenge-element-2 {
+div.col2-skill-element-2 {
   width: 100%;
   float: none
 }
