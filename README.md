@@ -1,5 +1,4 @@
 This micro webapp is a proof of concept to amuse the staff at DIY. I hope you like it and we can be besties 4 evah and evah.
-You can check out the live demo on <a href="https://saltwatersun.herokuapp.com/">Heroku</a>.
 
 You with me?
 -----------------------
