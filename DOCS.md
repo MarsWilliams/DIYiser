@@ -2,7 +2,7 @@ Note on CSS
 -----------------------
 I am a huge fan of modularization, and normally would seperate stylesheets by type (typography, elements, layout, etc.). Since this project is a demo, yet still has relatively complex structure, I have opted to group styles by page, taking advantage of the cascade to reduce class chaos.I did make a color stylesheet for quick reference. Normally my workflow includes Gulp to automate css minification and prefixing. 
 
-Responsive design: the landing page is responsive, and so is the error page. The challenges page needs more float magic.
+Responsive design: The landing page is responsive, and so is the error page. The skills page needs more float magic and breakpoints.
 
 Note on HTML
 -----------------------

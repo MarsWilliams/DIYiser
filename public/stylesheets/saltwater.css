@@ -7,7 +7,7 @@ body {
 }
 
 div.wrapper {
-  width: 1216px;
+  width: 70%;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -64,7 +64,7 @@ div.article-side {
   margin-bottom: 6.25em
 }
 
-div.extended-caption {
+div.infoblock {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -248,7 +248,7 @@ p.quote-a-cite {
   font-style: normal
 }
 
-div.extended-caption-figure {
+div.infoblock-figure {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -256,7 +256,7 @@ div.extended-caption-figure {
   width: 50%
 }
 
-div.extended-caption-content {
+div.infoblock-content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -266,12 +266,11 @@ div.extended-caption-content {
   text-align: center
 }
 
-img.extended-caption-img {
+img.infoblock-img {
   display: block;
-  padding-top: 15%
 }
 
-p.extended-caption-tag {
+p.infoblock-tag {
   font-size: 1em;
   line-height: 2;
   margin: 0 0 1em;
@@ -282,23 +281,23 @@ p.extended-caption-tag {
   font-style: normal
 }
 
-h2.extended-caption-h2 {
+h2.infoblock-h2 {
   font-size: 2.75em;
   line-height: 1.227;
-  margin: 0 0 .364em;
   font-family: "Crimson Text";
   font-weight: 400;
   font-style: normal
 }
 
-p.extended-caption-p {
+p.infoblock-p {
   font-size: 1.25em;
   font-family: "Crimson Text";
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
+  margin: 1em;
 }
 
-a.extended-caption-ghost-button {
+a.infoblock-button {
   color: rgba(255,255,255,1);
   background-color: rgba(255,153,204,1);
   font-size: .75em;
@@ -314,16 +313,16 @@ a.extended-caption-ghost-button {
   font-style: normal
 }
 
-a.extended-caption-ghost-button:hover {
+a.infoblock-button:hover {
   background-color: rgba(255,163,210,1)
 }
 
-div.extended-caption:before {
+div.infoblock:before {
   content: " ";
   display: table
 }
 
-div.extended-caption:after {
+div.infoblock:after {
   content: " ";
   display: table;
   clear: both
@@ -369,9 +368,9 @@ img.three-col-img {
 
 h1.intro-h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 3em;
   line-height: 1.2em;
-  margin-bottom: 1em;
+  margin: 1em;
   font-family: "Crimson Text";
   font-weight: 400;
   font-style: normal
@@ -379,7 +378,7 @@ h1.intro-h1 {
 
 p.intro-p {
   text-align: center;
-  font-size: 22px;
+  font-size: 1.5em;
   margin-bottom: 1em;
   font-family: "Crimson Text";
   font-weight: 400;
@@ -427,7 +426,7 @@ body {
   font-size: 90%
 }
 
-h2.extended-caption-h2 {
+h2.infoblock-h2 {
   font-size: 2.5em
 }
 
@@ -469,18 +468,18 @@ p.article-main-first-p {
   font-size: 1.25em
 }
 
-h2.extended-caption-h2 {
+h2.infoblock-h2 {
   font-size: 2em
 }
 
-div.extended-caption-figure {
+div.infoblock-figure {
   float: none;
-  width: 80vh;
+  width: 100%;
 }
 
-div.extended-caption-content {
+div.infoblock-content {
   float: none;
-  width: 80vh;
+  width: 100%;
 }
 
 div.article-main {
@@ -491,10 +490,14 @@ div.article-side {
   margin: 0 0 1em
 }
 
-div.extended-caption {
-  min-width: 80vh;
-  margin: 0 0 4em;
-  display: block
+div.infoblock {
+  margin: 0 auto;
+  width: 100%;
+}
+
+img.infoblock-img {
+  margin: 0 auto;
+  width: 100%;
 }
 
 div.quote-a {

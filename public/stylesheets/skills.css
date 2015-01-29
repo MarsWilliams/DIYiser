@@ -7,7 +7,7 @@ body {
 }
 
 div.wrapper {
-  width: 1216px;
+  width: 70%;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -59,7 +59,7 @@ nav {
 
 nav.menu-nav-hz {
   margin: 0 auto;
-  width: 1214.4166564941px
+  width: 100%;
 }
 
 nav.menu-nav-hz:after {
@@ -67,15 +67,17 @@ nav.menu-nav-hz:after {
 }
 
 ul.menu-hz {
-  margin: 0 0 3em;
+  margin: 0 auto;
   list-style: none;
-  text-align: center
+  text-align: center;
+  display: table;
+  width: 100%;
 }
 
 li.menu-hz-li {
-  margin: 0 4.5em 0 3.5em;
+  margin: auto;
   font-size: 16px;
-  display: inline-block
+  display: table-cell;
 }
 
 div.col-2:before {
