@@ -5,10 +5,10 @@ You can view a <a href="https://saltwatersun.herokuapp.com/">live demo</a> on he
 Sceenshots
 -----------------------
 ![screenshot_diyiser_1](https://cloud.githubusercontent.com/assets/6811339/6098166/f94a39b2-af8a-11e4-8a62-a6067eb18224.png)
-Landing Page
+->Landing Page<-
 
 ![screenshot_diyiser_2](https://cloud.githubusercontent.com/assets/6811339/6098171/0faa4d32-af8b-11e4-95a2-23ee3259c85f.png)
-Skills Page
+->Skills Page<-
 
 
 Cloning?
