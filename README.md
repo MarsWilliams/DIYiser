@@ -1,5 +1,7 @@
 This is micro webapp built with Express, Node.js, and Handlebars that interacts with the DIY.org API.
 
+You can view a <a href="https://saltwatersun.herokuapp.com/">live demo</a> on heroku.
+
 You with me?
 -----------------------
 You'll need to install node.js to start.
